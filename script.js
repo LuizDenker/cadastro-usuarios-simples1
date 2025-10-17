@@ -4,11 +4,11 @@ document.getElementById('formCadastro').addEventListener('submit', function(e) {
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
     
-    // Simula o cadastro (num sistema real, enviaria para um servidor)
+  
     const usuario = { nome, email };
     adicionarUsuarioNaLista(usuario);
     
-    // Limpa o formulário
+   
     this.reset();
 });
 
